@@ -1,5 +1,4 @@
 import React from 'react';
-import { useEffect, useState } from "react";
 import { useStopwatch } from 'react-timer-hook';
 
 export default function Timer() {
