@@ -32,11 +32,11 @@ export default function Timer() {
 
     return ( 
     <div className="timer">
-        <div>
+        <div className="left-timer">
             <img src={ dummy }></img>
         </div>
 
-        <div className="left-section">
+        <div className="right-timer">
 
             <h1>TIME SINCE LAST RELAPSE:</h1>
 
