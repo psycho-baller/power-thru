@@ -3,13 +3,14 @@ import {
   ChakraProvider,
   Container,
   Flex,
-  Text,
+  Text,  
   // useColorModeValue,
 } from "@chakra-ui/react";
 import { motion, useScroll } from "framer-motion";
 import { useEffect } from "react";
 import Logo from "./logo";
 import "./navBar.scss";
+import PanicBotton from "./panicButton";
 // import NextLink from "next/link";
 
 const GoTo = ({
@@ -114,52 +115,19 @@ const NavBar = () => {
                   Home
                 </GoTo>
               </Box> */}
-                <GoTo id_="home">Home</GoTo>
-                <GoTo id_="expertise">Expertise</GoTo>
-                <GoTo id_="work">Work</GoTo>
-                <GoTo id_="experience">Experience</GoTo>
-                <GoTo id_="contact">Contact</GoTo>
+                <GoTo id_="home">Timer</GoTo>
+                <GoTo id_="resources">Resources</GoTo>
+                <GoTo id_="community">Community</GoTo>
                 <Box className="li" px={4} cursor="pointer">
                   Me
                 </Box>
               </Flex>
             </Box>
 
+            {/* panic button */}
             <Box>
               {/* <ThemeToggleButton /> */}
-
-              {/* <Box display={{ base: "inline-block", md: "none" }}> */}
-              {/* <Menu isLazy id="navbar-menu">
-                <MenuButton
-                  as={IconButton}
-                  icon={<HamburgerIcon />}
-                  variant="outline"
-                  aria-label="Options"
-                />
-                <MenuList>
-                  {/* <MenuItem> */}
-              {/* <Box mr={4}>
-                    <GoTo id_="home">Home</GoTo>
-                  </Box>
-                  </MenuItem>
-                  <NextLink href="/works" passHref>
-                    <MenuItem as={Link}>Works</MenuItem>
-                  </NextLink>
-                  <NextLink href="/posts" passHref>
-                    <MenuItem as={Link}>Posts</MenuItem>
-                  </NextLink>
-                  <NextLink href="https://uses.craftz.dog/" passHref>
-                    <MenuItem as={Link}>Uses</MenuItem>
-                  </NextLink>
-                  <MenuItem
-                    as={Link}
-                    href="https://github.com/craftzdog/craftzdog-homepage"
-                  >
-                    View Source
-                  </MenuItem>
-                </MenuList>
-              </Menu> */}
-              {/* </Box> */}
+              <PanicBotton />
             </Box>
           </Flex>
         </Container>

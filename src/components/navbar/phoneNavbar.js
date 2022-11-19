@@ -1,10 +1,10 @@
 import { useRef, useState } from "react";
 import { motion, useCycle } from "framer-motion";
-import { useDimensions } from "../../lib/use-dimensions";
+// import useDimensions from "../../lib/use-dimensions";
 import { MenuToggle } from "./menuToggle";
 import { Navigation } from "./navigation";
 import Logo from "./logo";
-import useScrollBlock from "../../lib/useScrollBlock";
+// import useScrollBlock from "../../lib/useScrollBlock";
 const sidebar = {
   open: (height = 1000) => ({
     clipPath: `circle(${height * 2 + 200}px at 40px 40px)`,
@@ -28,26 +28,26 @@ const sidebar = {
 function PhoneNavbar() {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const containerRef = useRef(null);
-  const { height } = useDimensions(containerRef);
-  const [blockScroll, allowScroll] = useScrollBlock();
-  const toggleScroll = () => {
-    if (isOpen) {
-      allowScroll();
-    } else {
-      blockScroll();
-    }
-  };
+//   const { height } = useDimensions(containerRef);
+//   const [blockScroll, allowScroll] = useScrollBlock();
+//   const toggleScroll = () => {
+//     if (isOpen) {
+//       allowScroll();
+//     } else {
+//       blockScroll();
+//     }
+//   };
 
   return (
     <motion.nav
-      className="nav md:hidden bg-white"
+      className="nav"
       initial={false}
       animate={isOpen ? "open" : "closed"}
-      custom={height}
+    //   custom={height}
       ref={containerRef}
       onClick={() => {
         toggleOpen();
-        toggleScroll();
+        // toggleScroll();
       }}
     >
       <motion.div className="background" variants={sidebar} />
