@@ -1,0 +1,37 @@
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.left-section {
+    text-align: left;
+}
+
+.left-section h1 {
+    font-weight: bold;
+}
+
+.timer img {
+    width: 500px;
+    height: 500px;
+    margin-right: 5rem;
+
+}
+
+.timer-numbers {
+    font-size: 4rem;
+}
+
+.timer-text {
+    padding-left: 1.5rem;
+    font-size: 4rem;
+    text-align: left;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

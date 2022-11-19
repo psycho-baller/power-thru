@@ -21,7 +21,7 @@ const GoTo = ({
   // const isCurrentPath = path === href;
   // const inactiveColor = useColorModeValue("gray200", "whiteAlpha.900");
   return (
-    <Box className="li"px={4} cursor="pointer">
+    <Box className="li " px={4} cursor="pointer">
       <Text
         as={motion.div}
         // whileHover={{ opacity: 1 }}
