@@ -5,12 +5,13 @@
     height: 90vh;
 }
 
-.left-timer {
+.right-timer {
     text-align: left;
 }
 
-.left-timer h1 {
+.right-timer h1 {
     font-weight: bold;
+    font-size: 2rem;
 }
 
 .timer img {
@@ -32,6 +33,36 @@
 
 .stats {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
+}
+
+.relapse-button {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    border-radius: .5rem;
+    width: 100%;
+    background-color: rgba(148, 0, 0, 0.476);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.relapse-button:hover {
+    background-color: rgba(221, 0, 0, 0.476)
+}
+
+.timer-text-d {
+    color: #C8963E;
+}
+
+.timer-text-h {
+    color: #6f71ff;
+}
+
+.timer-text-m {
+    color: #ff4e4e;
+}
+
+.timer-text-s {
+    color: #3efff2;
 }

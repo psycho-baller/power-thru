@@ -42,20 +42,20 @@ export default function Timer() {
 
             <div className="stats">
                 <div className="timer-numbers">
-                    { days }<br/>
-                    { hours }<br/>
-                    { minutes }<br/>
-                    { seconds }
+                    <div className="timer-text-d">{ days }<br/></div>
+                    <div className="timer-text-h">{ hours }<br/></div>
+                    <div className="timer-text-m">{ minutes }<br/></div>
+                    <div className="timer-text-s">{ seconds }<br/></div>
                 </div>
                 <div className="timer-text">
-                    Days <br/>
-                    Hours <br/>
-                    Minutes <br/>
-                    Seconds
+                    <div className="timer-text-d">Days <br/></div>
+                    <div className="timer-text-h">Hours <br/></div>
+                    <div className="timer-text-m">Minutes <br/></div>
+                    <div className="timer-text-s">Seconds <br/></div>
                 </div>
             </div>
             
-            <button onClick={relapse}>RELAPSE</button>
+            <button className="relapse-button" onClick={relapse}>RELAPSE</button>
         </div>
     </div>
         
