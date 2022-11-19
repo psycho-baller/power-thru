@@ -7,6 +7,7 @@
 
 .right-timer {
     text-align: left;
+    font-family: "medium";
 }
 
 .right-timer h1 {
@@ -23,6 +24,8 @@
 
 .timer-numbers {
     font-size: 4rem;
+    width: 5rem;
+    white-space: nowrap;
 }
 
 .timer-text {
@@ -35,6 +38,9 @@
     display: flex;
     align-items: left;
     justify-content: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
 }
 
 .relapse-button {
@@ -45,6 +51,7 @@
     background-color: rgba(148, 0, 0, 0.476);
     transition: 0.3s;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .relapse-button:hover {
@@ -53,16 +60,42 @@
 
 .timer-text-d {
     color: #C8963E;
+    transition: 0.5s;
+
 }
 
 .timer-text-h {
     color: #6f71ff;
+    transition: 0.5s;
 }
 
 .timer-text-m {
     color: #ff4e4e;
+    transition: 0.5s;
 }
 
 .timer-text-s {
     color: #3efff2;
+    transition: 0.5s;
 }
+
+.timer-text-d:hover {
+    font-size: 4.2rem;
+    transform:rotateZ(1.5deg);
+}
+
+.timer-text-h:hover {
+    font-size: 4.2rem;
+    transform:rotateZ(1.5deg);
+}
+
+.timer-text-m:hover {
+    font-size: 4.2rem;
+    transform:rotateZ(1.5deg);
+}
+
+.timer-text-s:hover {
+    font-size: 4.2rem;
+    transform:rotateZ(1.5deg);
+}
+
