@@ -10,13 +10,11 @@ import {Html} from "@react-three/drei";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Canvas className="z-0 !absolute">
-      <Experience/>
-      <Html>
-        <App />
-      </Html>
+    <Canvas className="!absolute three">
+      <Experience />
+      <Html></Html>
     </Canvas>
-    
+    <App />
   </React.StrictMode>
 );
 

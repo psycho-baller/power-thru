@@ -1,6 +1,5 @@
 import {
   Box,
-  ChakraProvider,
   Container,
   Flex,
   Text,  
@@ -67,7 +66,6 @@ const NavBar = () => {
   }, [scrollY]);
 
   return (
-    <ChakraProvider>
       <Box
         display={{ base: "none", md: "block" }}
         zIndex={1}
@@ -129,7 +127,6 @@ const NavBar = () => {
           </Flex>
         </Container>
       </Box>
-    </ChakraProvider>
   );
 };
 

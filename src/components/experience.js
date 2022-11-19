@@ -24,7 +24,7 @@ export default function Experience() {
 //   useHelper(directionalLight, THREE.DirectionalLightHelper, 0.5, "hotpink");
   return (
     <>
-      <OrbitControls makeDefault />
+      {/* <OrbitControls makeDefault /> */}
 
       <AccumulativeShadows position={[0, -0.99, 0]} scale={10}>
         <RandomizedLight />
@@ -38,7 +38,7 @@ export default function Experience() {
       />
       <ambientLight intensity={0.5} />
 
-      <Sky />
+      {/* <Sky /> */}
 
       <mesh castShadow position-x={-2}>
         <sphereGeometry />
