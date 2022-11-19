@@ -1,5 +1,7 @@
 import React from 'react';
 import { useStopwatch } from 'react-timer-hook';
+import dummy from './dummy-rings.png'
+import "./Timer.css"
 
 export default function Timer() {
 
@@ -28,13 +30,34 @@ export default function Timer() {
         reset()
     }
 
-    return (
-        <div style={{textAlign: 'center'}}>
+    return ( 
+    <div className="timer">
+        <div>
+            <img src={ dummy }></img>
+        </div>
+
+        <div className="left-section">
+
             <h1>TIME SINCE LAST RELAPSE:</h1>
-            <div style={{fontSize: '100px'}}>
-                <span>{days}</span>:<span>{hours}</span>:<span>{minutes}</span>:<span>{seconds}</span>
+
+            <div className="stats">
+                <div className="timer-numbers">
+                    { days }<br/>
+                    { hours }<br/>
+                    { minutes }<br/>
+                    { seconds }
+                </div>
+                <div className="timer-text">
+                    Days <br/>
+                    Hours <br/>
+                    Minutes <br/>
+                    Seconds
+                </div>
             </div>
+            
             <button onClick={relapse}>RELAPSE</button>
         </div>
+    </div>
+        
   );
 }
