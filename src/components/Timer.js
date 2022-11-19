@@ -55,7 +55,7 @@ export default function Timer() {
                 </div>
             </div>
             
-            <button className="relapse-button" onClick={relapse}>RELAPSE</button>
+            <button className="relapse-button" onClick={relapse}>R E L A P S E</button>
         </div>
     </div>
         
