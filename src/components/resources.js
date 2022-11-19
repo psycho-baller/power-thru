@@ -1,6 +1,6 @@
 export default function Resources() {
     return(
-        <div className="resources h-screen">
+        <div id="resources" className="resources h-screen">
             <div className="resources-content">
                 <div className="resources-content-title">
                     <h1>Resources</h1>

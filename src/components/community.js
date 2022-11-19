@@ -1,6 +1,6 @@
 export default function Community() {
     return(
-        <div className="community h-screen">
+        <div id="community" className="community h-screen">
             <div className="community-content">
                 <div className="community-content-title">
                     <h1>Community</h1>

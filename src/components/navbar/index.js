@@ -118,9 +118,6 @@ const NavBar = () => {
                 <GoTo id_="home">Timer</GoTo>
                 <GoTo id_="resources">Resources</GoTo>
                 <GoTo id_="community">Community</GoTo>
-                <Box className="li" px={4} cursor="pointer">
-                  Me
-                </Box>
               </Flex>
             </Box>
 
