@@ -3,16 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import {Canvas} from "@react-three/fiber";
-import Experience from './components/experience';
-import {Html} from "@react-three/drei";
-
+import Experience from './components/three-js/experience';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Canvas className="!absolute three">
       <Experience />
-      <Html></Html>
     </Canvas>
     <App />
   </React.StrictMode>
