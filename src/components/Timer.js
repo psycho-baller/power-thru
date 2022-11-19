@@ -16,9 +16,9 @@ export default function Timer() {
         minutes,
         hours,
         days,
-        isRunning,
-        start,
-        pause,
+        // isRunning,
+        // start,
+        // pause,
         reset,
     } = useStopwatch({ autoStart: true, offsetTimestamp: stopwatchOffset });
 
