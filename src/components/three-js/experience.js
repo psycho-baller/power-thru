@@ -17,8 +17,14 @@ export default function Experience() {
     "#8B00FF",
   ];
 
+  const count = 200
   // float 32 array for the random colors
-  const color = new Float32Array(600);
+  const colors = new Float32Array(count * 3);
+
+  for (let i = 0; i < count * 3; i++) {
+    // positions[i] = (Math.random() - 0.5) * 10;
+    colors[i] = Math.random();
+  }
   
 
   return (
@@ -27,14 +33,14 @@ export default function Experience() {
 
       <Sparkles
         /** Number of particles (default: 100) */
-        count={200}
+        count={count}
         /** Speed of particles (default: 1) */
         speed={0.2}
         /** Opacity of particles (default: 1) */
         // opacity?: number | Float32Array
         /** Color of particles (default: 100) */
         // random color
-        color={colorArray[Math.floor(Math.random() * colorArray.length)]}
+        color={colors}
         /** Size of particles (default: randomized between 0 and 1) */
         size={2}
         /** The space the particles occupy (default: 1) */

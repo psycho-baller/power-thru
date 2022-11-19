@@ -2,6 +2,7 @@ import React from 'react';
 import { useStopwatch } from 'react-timer-hook';
 import dummy from './dummy-rings.png'
 import "./Timer.css"
+import ThreeTimer from './three-js/threeTimer';
 
 export default function Timer() {
 
@@ -33,7 +34,8 @@ export default function Timer() {
     return ( 
     <div className="timer">
         <div className="left-timer">
-            <img src={ dummy }></img>
+            {/* <img src={ dummy }></img> */}
+            <ThreeTimer/>
         </div>
 
         <div className="right-timer">
