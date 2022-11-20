@@ -5,7 +5,7 @@
 - [Video Demonstration](#video-demonstration)
 - [What is Power Thru?](#what-is-power-thru)
 - [Why did we build Power Thru?](#why-did-we-build-power-thru)
-- [Technologies Used (tech stack)](#technologies-used)
+- [Technologies Used (tech stack)](#technologies-used-tech-stack)
 - [Future Plans](#future-plans)
 
 ## Video Demonstration
