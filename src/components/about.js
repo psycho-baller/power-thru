@@ -13,11 +13,15 @@ export default function About() {
           extremely addictive and it can have a severe negative impact on the
           mental and spiritual health of those who are inflicted. POWER THRU
           tracks a user's "streak" and visualizes it in an aesthetically
-          pleasing way to induce a calming effect on the user and counterract
+          pleasing way to induce a calming effect on the user and counteract
           the negative stigma that surrounds this topic.
           <br /> <br />
-          Every time you indulge in your addiction, click on the relapse
-          button to reset your streak. To set your streak to a particular value, 
+          Whenever the user feels like "relapsing", or indulging in their addiction,
+          they should click on the panic button in the top left corner of this webpage.
+          This will take them to a page that directs them to support and online resources to
+          motivate them and help them stay strong.
+          If the user relapses, they should click on the relapse
+          button to reset their streak. To set the streak to a particular value, 
           scroll up and enter the date and time of your last relapse in the 
           date-time picker, then click on update. 
           <br /> <br />

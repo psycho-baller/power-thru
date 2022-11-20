@@ -49,3 +49,9 @@
 .community .content-text {
     margin-top: 1rem;;
 }
+
+.footer {
+    /*margin-left: 10rem;*/
+    text-align: center;
+    color: white;
+}
