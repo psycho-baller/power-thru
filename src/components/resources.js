@@ -5,7 +5,7 @@ import videos from "../data/videos";
 
 export default function Resources() {
   return (
-    <section id="resources" className="resources h-screen">
+    <section id="resources" className="resources h-screen content">
       <h1 className="text-4xl font-bold">Resources</h1>
 
       <Flex>
