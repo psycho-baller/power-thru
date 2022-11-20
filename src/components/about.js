@@ -1,5 +1,5 @@
 import { Flex } from "@chakra-ui/react";
-import Saturn from "./three-js/earth";
+import Earth from "./three-js/earth";
 import { Canvas } from "@react-three/fiber";
 export default function About() {
   return (
@@ -33,6 +33,7 @@ export default function About() {
           <a
             href="https://github.com/psycho-baller/power-thru"
             target="_blank"
+            rel="noreferrer"
             className="underline"
           >
             Click here to view the source code for this project.
@@ -44,7 +45,7 @@ export default function About() {
             fov: 75,
           }}
         >
-          <Saturn />
+          <Earth />
         </Canvas>
       </Flex>
     </section>
