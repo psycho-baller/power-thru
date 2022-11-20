@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import { useStopwatch } from 'react-timer-hook';
 import dummy from './dummy-rings.png'
 import "./Timer.css"
@@ -8,11 +8,8 @@ import DateTimePicker from 'react-datetime-picker'
 export default function Timer() {
 
     const [value, onChange] = useState(new Date());
-
     const current = new Date()  // current date
-    if (localStorage.getItem('date') === null) {
-        localStorage.setItem('date', current)
-    }
+
     const lastRelapse = Date.parse(localStorage.getItem('date')) // date of last relapse
     
     var difference = (current - lastRelapse) / 1000; // seconds since last relapse
@@ -35,6 +32,15 @@ export default function Timer() {
     {
         localStorage.setItem('date', new Date())
         reset()
+    }
+
+    useEffect(()=>{
+        console.log(value)
+    },[value])
+
+    function updateRelapse(){
+        localStorage.setItem('date', value)
+        window.location.reload(false);
     }
 
     return ( 
@@ -70,6 +76,11 @@ export default function Timer() {
                     calendarClassName = "calendar"
                     onChange={onChange} value={value}
                 ></DateTimePicker>
+                <button
+                    className='update-button'
+                    onClick={ updateRelapse }>
+                    UPDATE
+                </button>
             </div>    
         </div>
     </div>
