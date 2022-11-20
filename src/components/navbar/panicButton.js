@@ -1,8 +1,11 @@
 import { Heading } from "@chakra-ui/react";
 
 export default function panicBotton({ shiftX, shiftY }) {
+
   return (
-    <Heading
+    <a href="https://emergency.nofap.com/"
+    className="panic-button"
+    target="_blank"
     //   position={"absolute"}
       left={shiftX}
       top={shiftY}
@@ -17,16 +20,9 @@ export default function panicBotton({ shiftX, shiftY }) {
     // width="0"
     // height="0"
       // bgGradient="linear(to-r, cyan.400, blue.500, purple.600)"
-      onClick={() => {
-        if (document) {
-          const _id_ = document.getElementById("home");
-          if (_id_) {
-            _id_.scrollIntoView({ behavior: "smooth" });
-          }
-        }
-      }}
+      
     >
       Panic Button
-    </Heading>
+    </a>
   );
 }
