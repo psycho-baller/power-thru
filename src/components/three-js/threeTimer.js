@@ -14,7 +14,6 @@ window.addEventListener("mousemove", (event) =>
 
     mousePos.x = x * 0.001;
     mousePos.y = y * 0.001;
-    console.log("x: " + mousePos.x + " y: " + mousePos.y);
    
 });
 const daysRef = useRef()
@@ -37,7 +36,6 @@ const secsRef = useRef()
         daysRef.current.rotation.y = daysRef.current.rotation.y * 0.95 + (mousePos.x * 0.1) * 0.05;
     })
     
-console.log('secs: '+ secs)
     return(
 <>
 

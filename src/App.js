@@ -1,7 +1,5 @@
 import './App.css';
-// import NavBar from './components/navbar';
 import Timer from './components/Timer';
-// import dynamic from "next/dynamic";
 import NavBar from "./components/navbar/index";
 import { Box, Container } from "@chakra-ui/react";
 import Footer from "./components/footer";

@@ -48,7 +48,7 @@ const NavBar = () => {
   useEffect(() => {
     scrollY.onChange((y) => {
       if (document) {
-        if (y > 450) {
+        if (y > 600) {
           // move navbar back down
           const nav = document.getElementById("navbar");
           if (nav) {
