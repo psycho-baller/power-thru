@@ -4,6 +4,7 @@ import {
   Sparkles,
 } from "@react-three/drei";
 import * as THREE from "three";
+import Quote from "./quote";
 
 export default function Experience() {
   const cube = useRef();
@@ -30,6 +31,8 @@ export default function Experience() {
   return (
     <>
       <ambientLight intensity={0.5} />
+
+      {/* <Quote/> */}
 
       <Sparkles
         /** Number of particles (default: 100) */
