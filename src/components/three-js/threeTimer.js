@@ -14,18 +14,18 @@ const { radius, tube, radialSegments, tubularSegments, arc } = useControls({radi
             <meshStandardMaterial  color="#C8963E" />
         </mesh>
         <mesh rotation-z={  Math.PI * 0.5 } >
-            <torusGeometry args={ [ 2.8 , 0.20 , 90 , 90 , -(hrs*Math.PI * 2)/90 ] } />
+            <torusGeometry args={ [ 2.8 , 0.20 , 90 , 90 , -(hrs*Math.PI * 2)/24 ] } />
             <meshStandardMaterial  color="#6f71ff" />
         </mesh>
 
                                                                                                                 <mesh rotation-z={  Math.PI * 0.5 } >
-            <torusGeometry args={ [ 1.9 , 0.20 , 90 , 90 , -(mins*Math.PI * 2)/90 ] } />
+            <torusGeometry args={ [ 1.9 , 0.20 , 90 , 90 , -(mins*Math.PI * 2)/60 ] } />
             <meshStandardMaterial  color="#ff4e4e" />
         </mesh>
 
 
 <mesh rotation-z={  Math.PI * 0.5 } >
-            <torusGeometry args={ [ 1.0 , 0.20 , 90 , 90 , -(secs*Math.PI * 2)/90 ] } />
+            <torusGeometry args={ [ 1.0 , 0.20 , 90 , 90 , -(secs*Math.PI * 2)/60 ] } />
             <meshStandardMaterial  color="#3efff2" />
         </mesh>
         </Canvas>
