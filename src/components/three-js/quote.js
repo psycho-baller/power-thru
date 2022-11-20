@@ -17,6 +17,7 @@ export default function Quote({ quote, x, y, rotY }) {
     });
   useEffect(() => {
     if (showQuote) {
+      ref.current.material.opacity = 1;
       ref.current.rotation.y = 0;
       ref.current.position.x = 0;
       ref.current.position.z = 1;
@@ -24,6 +25,7 @@ export default function Quote({ quote, x, y, rotY }) {
       // focus on the quote
       // ref.current.parent.;
     } else {
+      ref.current.material.opacity = 0.4;
       ref.current.rotation.y = rotY;
       ref.current.position.x = x;
       ref.current.position.z = 0;

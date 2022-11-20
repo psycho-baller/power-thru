@@ -113,10 +113,10 @@ const NavBar = () => {
                   Home
                 </GoTo>
               </Box> */}
-                <GoTo id_="home">Timer</GoTo>
-                <GoTo id_="about">About</GoTo>
-                <GoTo id_="resources">Resources</GoTo>
-                <GoTo id_="community">Community</GoTo>
+                <GoTo className="home" id_="home">Home</GoTo>
+                <GoTo className="about" id_="about">About</GoTo>
+                <GoTo className="resources" id_="resources">Resources</GoTo>
+                <GoTo  className="community" id_="community">Community</GoTo>
               </Flex>
             </Box>
 
