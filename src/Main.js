@@ -7,23 +7,13 @@ import Experience from "./components/three-js/experience";
 
 export default function Main() {
 
-     const [showQuote, setShowQuote] = useState(false);
-
-     window.addEventListener("keydown", (e) => {
-       if (e.key === "q") {
-         if (showQuote === false) {
-           setShowQuote(true);
-         } else {
-           setShowQuote(false);
-         }
-       }
-     });
+     
   return (
     <>
       <Canvas className="!absolute three">
-        <Experience showQuote={showQuote} />
+        <Experience/>
       </Canvas>
-      <App showQuote={showQuote} />
+      <App  />
     </>
   );
 }
