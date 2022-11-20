@@ -6,6 +6,12 @@
     margin-top: -7rem;
 }
 
+.left-timer {
+    width: 50%;
+    height: 70%;
+    margin-right: 5rem;
+}
+
 .right-timer {
     text-align: left;
     font-family: "medium";
