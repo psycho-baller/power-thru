@@ -3,7 +3,7 @@
 }
 
 .resources {
-    color: #6f71ff;
+    color: #d1acac;
 }
 
 .community {
@@ -25,4 +25,33 @@
 
 .content-text {
     line-height: 2rem;
+}
+
+.about-flex canvas {
+    margin-top: 12rem;
+    /*height: 20rem;*/
+}
+
+.community-flex {
+    margin-top: 2rem;
+}
+
+.community-flex img {
+    max-width: 8rem;
+}
+
+.community-flex p {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+}
+
+.community .content-text {
+    margin-top: 1rem;;
+}
+
+.footer {
+    /*margin-left: 10rem;*/
+    text-align: center;
+    color: white;
 }

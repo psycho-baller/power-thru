@@ -1,13 +1,12 @@
 import Logo from "./navbar/logo";
+import "./info.css"
 
 export default function Footer() {
     return (
         <div className="footer">
         <div className="footer-content">
             <div className="footer-content-left">
-            <div className="footer-content-left-logo">
-                <Logo shiftX={-10} shiftY={-10} />
-            </div>
+            
             <div className="footer-content-left-text">
                 <p>
                 Power Thru is a non-profit organization that aims to help people

@@ -58,7 +58,7 @@ export default function Timer({ secs, mins, hrs, days }) {
         </mesh>
         <mesh>
           <torusGeometry args={[3.6, 0.035, 15, 70, (2*Math.PI - (days * Math.PI * 2) / 90)]} />
-          <meshStandardMaterial color="#72638C" />
+          <meshStandardMaterial color="#8f8f8f" />
         </mesh>
       </group>
       <group ref={hrsRef} rotation-z={Math.PI * 0.5}>
@@ -70,7 +70,7 @@ export default function Timer({ secs, mins, hrs, days }) {
           <torusGeometry
             args={[2.8, 0.035, 15, 50, Math.PI * 2 - (hrs * Math.PI * 2) / 24]}
           />
-          <meshStandardMaterial color="#72638C" />
+          <meshStandardMaterial color="#8f8f8f" />
         </mesh>
       </group>
 
@@ -79,7 +79,7 @@ export default function Timer({ secs, mins, hrs, days }) {
           <torusGeometry
             args={[1.9, 0.035, 15, 40, Math.PI * 2 - (mins * Math.PI * 2) / 60]}
           />
-          <meshStandardMaterial color="#72638C" />
+          <meshStandardMaterial color="#8f8f8f" />
         </mesh>
         <mesh>
           <torusGeometry
@@ -94,7 +94,7 @@ export default function Timer({ secs, mins, hrs, days }) {
           <torusGeometry
             args={[1.0, 0.035, 15, 30, Math.PI * 2 - (secs * Math.PI * 2) / 60]}
           />
-          <meshStandardMaterial color="#72638C" />
+          <meshStandardMaterial color="#8f8f8f" />
         </mesh>
         <mesh>
           <torusGeometry

@@ -17,7 +17,7 @@ export default function Saturn() {
         <ambientLight intensity={1.5} />
         <pointLight position={[1, 1, 5]} intensity={1.5} />
 
-        <primitive ref={earthRef} object={model.scene}  scale={0.005} />
+        <primitive ref={earthRef} object={model.scene}  scale={0.006} />
       </>
     );
 }
