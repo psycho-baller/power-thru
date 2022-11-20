@@ -9,10 +9,11 @@ import Community from './components/community';
 import { ChakraProvider } from "@chakra-ui/react";
 import About from './components/about';
 
-const App = () => {
+const App = ({showQuote}) => {
+  const opacity = showQuote ? 50 : 100;
   return (
     <ChakraProvider>
-      <Box as="main" pb={8} id="home">
+      <Box as="main" pb={8} id="home" className={`opacity-${opacity}`}>
         <NavBar />
         <div className="md:hidden">
           <PhoneNavbar />

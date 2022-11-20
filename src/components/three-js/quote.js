@@ -1,49 +1,27 @@
 import { Text, Center } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
-import { useRef } from "react";
-import { Vector3 } from "three";
+import { useEffect, useRef, useState } from "react";
 
 
-export default function Quote({ quote, x, y, rotY }) {
-  // text.rotation.set(0, 0, 0);
+export default function Quote({ showQuote, quote, x, y, rotY }) {
   const ref = useRef();
-
-  const cursor = {
-    x: 0,
-    y: 0,
-  };
-  let mousePos = new Vector3(0, 0,0);
-
-  window.addEventListener("mousemove", (event) => {
-    let x = event.clientX - window.innerWidth * 0.5;
-    let y = event.clientY - window.innerHeight * 0.5;
-    cursor.x = x * 0.001;
-    cursor.y = y * 0.001;
-
-    mousePos.x = cursor.x;
-    mousePos.y = cursor.y;
-  });
-
-  useFrame(() => {
-    // console.log(mousePos.x + " " + mousePos.y);
-    // if users mouse is on the text, rotate it
-    if (ref.current.position.x - mousePos.x < 0.2 && ref.current.position.x - mousePos.x > -0.2 && ref.current.position.y - mousePos.y < 0.2 && ref.current.position.y - mousePos.y > -0.2)  {
-    //   ref.current.rotation.y += 0.01;
-    // ref.current.position.x += 0.01;
-    // ref.current.scale.set(0.5, 0.5, 0.5);
-    //   console.log("mouse is on text");
-    }
-  });
-
+      useEffect(() => {
+        if (showQuote) {
+          ref.current.rotation.y = 0;
+          ref.current.position.x = 0;
+          ref.current.position.z = 1;
+          // focus on the quote
+          // ref.current.parent.;
+        } else {
+          ref.current.rotation.y = rotY;
+          ref.current.position.x = x;
+          ref.current.position.z = 0;
+        }
+      }, [showQuote]);
   return (
     // <Center>
     <Text
       ref={ref}
-      onClick={(e) => {
-        // ref.current.rotation.y = 0;
-        // check of curson is on text
-        console.log(e);
-      }}
       // ref={text}
       size={0.03}
       height={0.1}

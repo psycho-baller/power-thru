@@ -7,8 +7,7 @@ import {useThree} from "@react-three/fiber";
 import Quote from "./quote";
 import quotes from "../../data/quotes";
 
-export default function Experience() {
-  const cube = useRef();
+export default function Experience({ showQuote }) {
   const colorArray = [
     "#FF0000",
     "#FF7F00",
@@ -58,6 +57,7 @@ export default function Experience() {
 
         return (
           <Quote
+            showQuote={showQuote}
             key={index}
             quote={quote}
             x={rand * 2 - 1} // -1 to 1

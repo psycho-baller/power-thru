@@ -22,19 +22,19 @@ const variants = {
 
 const items = [
   {
-    dir: "Home",
+    dir: "Timer",
     color: "#FF008C",
   },
   {
-    dir: "Expertise",
+    dir: "About",
     color: "#D309E1",
   },
   {
-    dir: "Work",
+    dir: "Resources",
     color: "#9C1AFF",
   },
   {
-    dir: "Experience",
+    dir: "Community",
     color: "#7700FF",
   },
   {
