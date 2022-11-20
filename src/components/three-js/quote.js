@@ -25,7 +25,7 @@ export default function Quote({ quote, x, y, rotY }) {
       // focus on the quote
       // ref.current.parent.;
     } else {
-      ref.current.material.opacity = 0.4;
+      ref.current.material.opacity = 0.2;
       ref.current.rotation.y = rotY;
       ref.current.position.x = x;
       ref.current.position.z = 0;
