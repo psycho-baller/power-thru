@@ -50,4 +50,4 @@ We have provided a section for resources such as books and youtube videos to ass
 - [ ] A more elegant way of setting yr streak
 - [ ] Import more 3D models around the website
 - [ ] scroll animations
-- [ ] Phone Complatability
+- [ ] Phone Compatibility
