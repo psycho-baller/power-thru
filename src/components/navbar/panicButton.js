@@ -6,6 +6,7 @@ export default function panicBotton({ shiftX, shiftY }) {
     <a href="https://emergency.nofap.com/"
     className="panic-button"
     target="_blank"
+    rel="noreferrer"
     //   position={"absolute"}
       left={shiftX}
       top={shiftY}

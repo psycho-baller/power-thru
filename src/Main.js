@@ -1,5 +1,3 @@
-import {useState} from "react";
-import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { Canvas } from "@react-three/fiber";
@@ -10,7 +8,9 @@ export default function Main() {
      
   return (
     <>
-      <Canvas className="!absolute three">
+      <Canvas
+      className="!absolute three"
+      >
         <Experience/>
       </Canvas>
       <App  />

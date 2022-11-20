@@ -8,8 +8,11 @@
 
 .left-timer {
     width: 50%;
-    height: 75%;
+    height: 80%;
     margin-right: 5rem;
+    /* padding-top: 1rem;
+    padding-bottom: 1rem; */
+
 }
 
 .right-timer {

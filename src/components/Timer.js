@@ -1,6 +1,5 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import { useStopwatch } from 'react-timer-hook';
-import dummy from './dummy-rings.png'
 import "./Timer.css"
 import ThreeTimerCanvas from './three-js/threeTimerCanvas';
 import DateTimePicker from 'react-datetime-picker'

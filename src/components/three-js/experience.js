@@ -18,7 +18,7 @@ export default function Experience() {
     "#8B00FF",
   ];
 
-  const count = 300
+  const count = 400
   // float 32 array for the random colors
   const colors = new Float32Array(count * 3);
 
