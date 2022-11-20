@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { useStopwatch } from 'react-timer-hook';
 import dummy from './dummy-rings.png'
 import "./Timer.css"
-import ThreeTimer from './three-js/threeTimer';
+import ThreeTimerCanvas from './three-js/threeTimerCanvas';
 import DateTimePicker from 'react-datetime-picker'
 
 export default function Timer() {
@@ -41,7 +41,7 @@ export default function Timer() {
     <div className="timer">
         <div className="left-timer">
             {/* <img src={ dummy }></img> */}
-            <ThreeTimer secs={seconds} mins={minutes} hrs={hours} days={days}/>
+            <ThreeTimerCanvas secs={seconds} mins={minutes} hrs={hours} days={days}/>
         </div>
 
         <div className="right-timer">

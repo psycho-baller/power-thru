@@ -3,7 +3,7 @@ import {
   //   useHelper,
   Sparkles,
 } from "@react-three/drei";
-import * as THREE from "three";
+import {useThree} from "@react-three/fiber";
 import Quote from "./quote";
 
 export default function Experience() {
@@ -26,13 +26,12 @@ export default function Experience() {
     // positions[i] = (Math.random() - 0.5) * 10;
     colors[i] = Math.random();
   }
+    
   
 
   return (
     <>
       <ambientLight intensity={0.5} />
-
-      {/* <Quote/> */}
 
       <Sparkles
         /** Number of particles (default: 100) */
@@ -51,6 +50,8 @@ export default function Experience() {
         /** Movement factor (default: 1) */
         // noise?: number | [number, number, number] | THREE.Vector3 | Float32Array
       />
+
+      <Quote />
     </>
   );
 }
