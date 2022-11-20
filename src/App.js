@@ -9,6 +9,7 @@ import PhoneNavbar from "./components/navbar/phoneNavbar";
 import Resources from './components/resources';
 import Community from './components/community';
 import { ChakraProvider } from "@chakra-ui/react";
+import About from './components/about';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Container maxW="container.xl" pt={16}>
           
           <Timer />
+          <About/>
           <Resources />
           <Community />
         </Container>

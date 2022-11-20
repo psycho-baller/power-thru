@@ -17,7 +17,7 @@ export default function Experience() {
     "#8B00FF",
   ];
 
-  const count = 200
+  const count = 300
   // float 32 array for the random colors
   const colors = new Float32Array(count * 3);
 
@@ -44,7 +44,7 @@ export default function Experience() {
         /** Size of particles (default: randomized between 0 and 1) */
         size={2}
         /** The space the particles occupy (default: 1) */
-        scale={5}
+        scale={5.5}
         /** Movement factor (default: 1) */
         // noise?: number | [number, number, number] | THREE.Vector3 | Float32Array
       />

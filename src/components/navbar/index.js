@@ -114,6 +114,7 @@ const NavBar = () => {
                 </GoTo>
               </Box> */}
                 <GoTo id_="home">Timer</GoTo>
+                <GoTo id_="about">About</GoTo>
                 <GoTo id_="resources">Resources</GoTo>
                 <GoTo id_="community">Community</GoTo>
               </Flex>
