@@ -38,16 +38,16 @@ We have provided a section for resources such as books and youtube videos to ass
 
 ## Future Plans
 
- -[] More Resources
- -[] More Quotes (self picked or API)
- -[] More Communities
- -[] Dark Mode(Stars), Light Mode(Sun)
- -[] Better Footer
- -[] Cleaner UI for the resources & community page
- -[] More features to help users fight their addiction
- -[] Our own [Panic Button](https://emergency.nofap.com/)
- -[] Add a feature to allow users to set a goal for their streak.
- -[] A more elegant way of setting yr streak
- -[] Import more 3D models around the website
- -[] scroll animations
- -[] Phone Complatability
+-[ ] More Resources
+-[ ] More Quotes (self picked or API)
+-[ ] More Communities
+-[ ] Dark Mode(Stars), Light Mode(Sun)
+-[ ] Better Footer
+-[ ] Cleaner UI for the resources & community page
+-[ ] More features to help users fight their addiction
+-[ ] Our own [Panic Button](https://emergency.nofap.com/)
+-[ ] Add a feature to allow users to set a goal for their streak.
+-[ ] A more elegant way of setting yr streak
+-[ ] Import more 3D models around the website
+-[ ] scroll animations
+-[ ] Phone Complatability
