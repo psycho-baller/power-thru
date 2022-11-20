@@ -182,3 +182,12 @@ li {
   padding: 1rem;
   color: white;
 }
+
+.logo-image {
+  transition: 0.2s;
+}
+
+.logo-image:hover {
+  cursor: pointer;
+  transform:scale(105%)
+}

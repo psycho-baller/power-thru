@@ -1,11 +1,11 @@
 export default function Community() {
     return(
-        <div id="community" className="community h-screen">
-            <div className="community-content">
-                <div className="community-content-title">
+        <section id="community" className="community h-screen content">
+
+                <div className="content-title">
                     <h1>Community</h1>
                 </div>
-                <div className="community-content-text">
+                <div className="content-text">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nulla vitae elit libero, a pharetra augue. Nullam id dolor
@@ -13,8 +13,8 @@ export default function Community() {
                         nibh ultricies vehicula ut id elit. Nullam id dolor id nibh
                         ultricies vehicula ut id elit. Nullam id dolor id nibh
                     </p>
-                </div>
+                    
             </div>
-        </div>
+        </section>
     );
 }

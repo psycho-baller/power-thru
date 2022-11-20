@@ -5,6 +5,6 @@ export default function Logo({
   shiftY,
 }) {
   return (
-    <LogoImage className="z-10 w-40 h-10 p-0 m-0"/>
+    <LogoImage className="logo-image z-10 w-40 h-10 p-0 m-0"/>
   );
 }

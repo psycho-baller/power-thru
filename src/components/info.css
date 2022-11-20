@@ -1,0 +1,28 @@
+.about {
+    color: #C8963E
+}
+
+.resources {
+    color: #6f71ff;
+}
+
+.community {
+    color: #3efff2;
+}
+
+.content {
+    padding: 4rem;
+}
+
+.content-title {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.content-subtitle {
+    font-size: 2rem;
+}
+
+.content-text {
+    line-height: 2rem;
+}
