@@ -11,7 +11,6 @@ export default function panicBotton({ shiftX, shiftY }) {
       top={shiftY}
       // overflow="hidden"
       cursor={"pointer"}
-      whiteSpace={"nowrap"}
       as="h1"
       size="lg"
       letterSpacing="tighter"
