@@ -18,6 +18,7 @@
 }
 
 .right-timer h1 {
+    color: white;
     font-weight: bold;
     font-size: 2rem;
 }
@@ -51,6 +52,7 @@
 }
 
 .relapse-button {
+    color: white;
     margin-top: 1rem;
     padding: 0.7rem;
     border-radius: .5rem;
@@ -66,27 +68,32 @@
 }
 
 .timer-text-d {
+    line-height: 5rem;
     color: #C8963E;
     transition: 0.5s;
 
 }
 
 .timer-text-h {
+    line-height: 5rem;
     color: #6f71ff;
     transition: 0.5s;
 }
 
 .timer-text-m {
+    line-height: 5rem;
     color: #ff4e4e;
     transition: 0.5s;
 }
 
 .timer-text-s {
+    line-height: 5rem;
     color: #3efff2;
     transition: 0.5s;
 }
 
 .timer-text-d:hover {
+
     font-size: 4.2rem;
     transform:rotateZ(1.5deg);
 }
@@ -106,3 +113,15 @@
     transform:rotateZ(1.5deg);
 }
 
+.date-picker {
+    color: white;
+    margin-top: 2rem;
+}
+
+.date-picker p {
+    color: white;
+}
+
+.calendar {
+    color: black;
+}

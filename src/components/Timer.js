@@ -1,12 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { useStopwatch } from 'react-timer-hook';
 import dummy from './dummy-rings.png'
 import "./Timer.css"
 import ThreeTimer from './three-js/threeTimer';
+import DateTimePicker from 'react-datetime-picker'
 
 export default function Timer() {
 
+    const [value, onChange] = useState(new Date());
+
     const current = new Date()  // current date
+    if (localStorage.getItem('date') === null) {
+        localStorage.setItem('date', current)
+    }
     const lastRelapse = Date.parse(localStorage.getItem('date')) // date of last relapse
     
     var difference = (current - lastRelapse) / 1000; // seconds since last relapse
@@ -58,6 +64,13 @@ export default function Timer() {
             </div>
             
             <button className="relapse-button" onClick={relapse}>R E L A P S E</button>
+            <div className='date-picker'>
+                <p className='pb-2'>To set the timer, select the date and time you last relapsed:{"  "}</p>
+                <DateTimePicker
+                    calendarClassName = "calendar"
+                    onChange={onChange} value={value}
+                ></DateTimePicker>
+            </div>    
         </div>
     </div>
         
