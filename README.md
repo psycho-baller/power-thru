@@ -19,6 +19,7 @@ To promote mental wellbeing by helping people conquer their pornography addictio
 According to the UN, in the year 2020, there was a 25% increase in the prevalence of anxiety and depression worldwide. According to this study published in Front Psychiatry, this coincides with a drastically increased consumption of pornographic content consumed world-wide. There are many other studies that show a direct correlation between compulsive internet pornography use and poor mental health.
 
 ## What is Power Thru?
+
 POWER THRU is a tool that aims to support those struggling with compulsive addiction to pornographic content. This content is extremely addictive and it can have a severe negative impact on the mental health of those who are inflicted.
 
 POWER THRU tracks a user's "streak" and visualizes it in an aesthetically pleasing way to induce a calming effect on the user and counteract the negative stigma that surrounds this topic.
@@ -39,15 +40,27 @@ We have provided a section for resources such as books and youtube videos to ass
 ## Future Plans
 
 -[ ] More Resources
+
 -[ ] More Quotes (self picked or API)
+
 -[ ] More Communities
+
 -[ ] Dark Mode(Stars), Light Mode(Sun)
+
 -[ ] Better Footer
+
 -[ ] Cleaner UI for the resources & community page
+
 -[ ] More features to help users fight their addiction
+
 -[ ] Our own [Panic Button](https://emergency.nofap.com/)
+
 -[ ] Add a feature to allow users to set a goal for their streak.
+
 -[ ] A more elegant way of setting yr streak
+
 -[ ] Import more 3D models around the website
+
 -[ ] scroll animations
+
 -[ ] Phone Complatability
