@@ -10,7 +10,10 @@ export default function Timer() {
     const [value, onChange] = useState(new Date());
     const current = new Date()  // current date
 
-    const lastRelapse = Date.parse(localStorage.getItem('date')) // date of last relapse
+    if(localStorage.getItem('date') == null) {
+        localStorage.setItem('date', current)
+    }
+    const lastRelapse = Date.parse(localStorage.getItem('date') ?? 'yo')  // date of last relapse
     
     var difference = (current - lastRelapse) / 1000; // seconds since last relapse
     
@@ -33,10 +36,6 @@ export default function Timer() {
         localStorage.setItem('date', new Date())
         reset()
     }
-
-    useEffect(()=>{
-        console.log(value)
-    },[value])
 
     function updateRelapse(){
         localStorage.setItem('date', value)
