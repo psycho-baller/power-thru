@@ -5,6 +5,7 @@ import {
 } from "@react-three/drei";
 import {useThree} from "@react-three/fiber";
 import Quote from "./quote";
+import quotes from "../../data/quotes";
 
 export default function Experience() {
   const cube = useRef();
@@ -51,7 +52,23 @@ export default function Experience() {
         // noise?: number | [number, number, number] | THREE.Vector3 | Float32Array
       />
 
-      <Quote />
+      {quotes.map((quote, index) => {
+        const rand = Math.random()
+        const randY = Math.random()
+
+        return (
+          <Quote
+            key={index}
+            quote={quote}
+            x={rand * 2 - 1} // -1 to 1
+            y={randY * 7 - 3.5} // -3.5 to 3.5
+            rotY={-rand * 0.5 - 0.25} // -.25 to .25
+          />
+        );
+      })}
+
+  
+          
     </>
   );
 }

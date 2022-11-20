@@ -8,6 +8,8 @@ import Experience from './components/three-js/experience';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    
+
     <Canvas className="!absolute three">
       <Experience />
     </Canvas>
