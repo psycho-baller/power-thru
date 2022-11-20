@@ -35,7 +35,7 @@ export default function Timer() {
     <div className="timer">
         <div className="left-timer">
             {/* <img src={ dummy }></img> */}
-            <ThreeTimer/>
+            <ThreeTimer secs={seconds} mins={minutes} hrs={hours} days={days}/>
         </div>
 
         <div className="right-timer">
