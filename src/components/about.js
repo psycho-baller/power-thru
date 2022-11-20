@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className="about min-h-screen content">
       <div className="content-title">About</div>
 
-      <Flex className="">
+      <Flex className="about-flex">
         <div className="content-text">
           POWER THRU is a tool that aims to support those struggling with
           compulsive addiction to pornographic content. This content is
