@@ -14,8 +14,8 @@ export default function Resources() {
         <Box>
           <h2 className="text-2xl font-bold text-center">Books</h2>
           <Stack>
-            {books.map((book) => (
-              <Box className="items-center justify-center flex">
+            {books.map((book, key) => (
+              <Box key={key} className="items-center justify-center flex">
                 <a href={book.amazon}>
                   {/* <div className=" items-center justify-center"> */}
                     <img className="h-20 p-0 mr-2" src={book.cover} />
@@ -26,12 +26,12 @@ export default function Resources() {
             ))}
           </Stack>
         </Box>
-        {/* <Spacer />
+        <Spacer />
         <Box>
           <h2 className="text-2xl font-bold text-center">Videos</h2>
           <Stack>
-            {videos.map((video) => (
-              <Box className="items-center justify-center flex">
+            {videos.map((video, key) => (
+              <Box key={key} className="items-center justify-center flex">
                 <a href={video.link}>
                   <div className=" items-center justify-center">
                     {video.title}
@@ -40,7 +40,7 @@ export default function Resources() {
               </Box>
             ))}
           </Stack>
-        </Box> */}
+        </Box>
         <Spacer />
       </Flex>
     </section>

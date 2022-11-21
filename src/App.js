@@ -28,9 +28,9 @@ const App = () => {
       <Box as="main" pb={8} id="home" className={opacity}>
 
         <NavBar />
-        <div className="md:hidden">
+        {/* <div className="md:hidden">
           <PhoneNavbar />
-        </div>
+        </div> */}
         <Container maxW="container.xl" pt={20}>
           <Timer />
           <About />

@@ -8,3 +8,5 @@ const videos = [
         title: "Andrew Huberman - How Porn Addiction Destroys Men’s Brains"
     }
 ]
+
+export default videos;
