@@ -1,14 +1,15 @@
 # POWER THRU
 
+- [Devpost Submission](https://devpost.com/software/power-thru)
+- [POWER THRU project Demo video](https://www.youtube.com/watch?v=Gv_zgh8lhZs)
+- [Presentation Slides](https://docs.google.com/presentation/d/10YKxf45ZCiMFmsckgEtQXZn1Ay3oXtZ-5BA7gP7dO2Y/edit?usp=sharing)
+
 ## Table of Contents
 
-- [Video Demonstration](#video-demonstration)
-- [What is Power Thru?](#what-is-power-thru)
 - [Why did we build Power Thru?](#why-did-we-build-power-thru)
+- [What is Power Thru?](#what-is-power-thru)
 - [Technologies Used (tech stack)](#technologies-used-tech-stack)
 - [Future Plans](#future-plans)
-
-## Video Demonstration
 
 [![Power Thru Demo](https://img.youtube.com/vi/Gv_zgh8lhZs/0.jpg)](https://www.youtube.com/watch?v=Gv_zgh8lhZs)
 
