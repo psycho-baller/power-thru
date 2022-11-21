@@ -11,8 +11,6 @@
 - [Technologies Used (tech stack)](#technologies-used-tech-stack)
 - [Future Plans](#future-plans)
 
-[![Power Thru Demo](https://img.youtube.com/vi/Gv_zgh8lhZs/0.jpg)](https://www.youtube.com/watch?v=Gv_zgh8lhZs)
-
 ## Why did we build Power Thru?
 
 To promote mental wellbeing by helping people conquer their pornography addiction
