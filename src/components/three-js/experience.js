@@ -3,7 +3,7 @@ import {
   //   useHelper,
   Sparkles,
 } from "@react-three/drei";
-import {useThree} from "@react-three/fiber";
+import { useThree } from "@react-three/fiber";
 import Quote from "./quote";
 import quotes from "../../data/quotes";
 
@@ -18,7 +18,7 @@ export default function Experience() {
     "#8B00FF",
   ];
 
-  const count = 400
+  const count = 500;
   // float 32 array for the random colors
   const colors = new Float32Array(count * 3);
 
@@ -26,8 +26,6 @@ export default function Experience() {
     // positions[i] = (Math.random() - 0.5) * 10;
     colors[i] = Math.random();
   }
-    
-  
 
   return (
     <>
@@ -52,8 +50,8 @@ export default function Experience() {
       />
 
       {quotes.map((quote, index) => {
-        const rand = Math.random()
-        const randY = Math.random()
+        const rand = Math.random();
+        const randY = Math.random();
 
         return (
           <Quote
@@ -65,9 +63,6 @@ export default function Experience() {
           />
         );
       })}
-
-  
-          
     </>
   );
 }
